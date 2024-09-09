@@ -1,0 +1,280 @@
+html{
+    box-sizing: border-box;
+}
+
+
+*, *:before, *:after{
+    box-sizing:inherit;
+}
+
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+body{
+    font-family: "Overpass", sans-serif;
+    background-image: url("Images/icon.png");
+    background-color: #A77C2C;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: "Just Another Hand", sans-serif;
+}
+
+h2{
+    font-family: "Dosis", sans-serif;
+    font-size: 64px;
+}
+
+h3{
+    font-family: "Dosis", sans-serif;
+}
+
+h4{
+    font-family: "Dosis", sans-serif;
+}
+
+p{
+    font-family: "Overpass", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header nav a :hover{
+    color: #8C6825;
+}
+
+/*----section header----*/
+
+header{
+    background-color: #D4D959;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+ nav a:hover{
+     color: #8C6825;
+ }
+
+nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    color: white;
+}
+
+nav li{
+    list-style: none;
+    padding-left: 43px;
+    color: white;
+}
+
+.bouton-header{
+    background-color: #F2B76E;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.bouton-header:hover{
+    color: black;
+    background-color: white;
+}
+
+
+/*----section hero----*/
+ .hero{
+     background-color: #F2A341;
+     padding: 80px 134px;
+     display: flex;
+
+ }
+
+ .hero div{
+     padding-right: 60px;
+ }
+
+ .bouton{
+     background-color: #F2B76E;
+     border: none;
+     padding: 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     border-radius: 4px;
+     text-transform: uppercase;
+     transition-duration: 0.4s;
+     font-family: "Overpass",sans-serif;
+     color: white;
+ }
+
+ .bouton:hover{
+     color: black;
+     background-color: white;
+
+ }
+
+/*----section contenu (DES BONS PIZZAS YAAAS)----*/
+
+.vedette{
+    background-color: #F2A341;
+    padding: 80px 134px;
+}
+
+.vedette h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.centre{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+
+.gallery{
+    float: left;
+    width: 25%;
+    padding: 5px;
+    margin: 0;
+}
+
+.descrption{
+    width: 200px;
+    background-color: #D4D959;
+    color: white;
+    margin: 0;
+    border: solid 10px #D4D959;
+}
+
+img{
+    vertical-align: top;
+}
+
+.descrption a{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.descrption a:hover{
+    color: #8C6825;
+}
+
+
+
+
+/*----section footer----*/
+footer{
+    background-color: #F20707;
+    padding: 0;
+}
+
+.menu{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-right:200px;
+    padding-left:200px;
+    padding-top: 30px;
+
+}
+
+
+.bas{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.menu li{
+    list-style: none;
+
+}
+
+
+
+/*----section footer des bouton sociaux----*/
+
+.facebook{
+    color: #1B05A0;
+}
+
+.instagram{
+    color: #A312AF;
+}
+
+.share{
+    color: #786C00;
+}
+
+.twitter{
+    color: #00AAB5;
+}
+
+.youtube{
+    color: #930000;
+}
+
+.wordpress{
+    color: #0084A1;
+}
+
+.social-btn{
+    font-family: "socialtype", sans-serif;
+    font-size: 72px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0 200px;
+    margin: 0;
+}
+
+footer a{
+    color: black;
+}
+
+footer a:hover{
+    color: white;
+    transition-duration: 0.4s;
+}
+
+hr{
+    background-color: black;
+    width: 970px;
+    border: none;
+    height: 1px;
+}
+
